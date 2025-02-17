@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: #101840;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
+
+.container{
+    padding-top: 6%;
+    padding-left: 10%;
+}
+
+h1{
+    color: white;
+    font-size: 3.3rem;
+    font-weight: 800;
+    padding-bottom: 3rem;
+}
+
+h1 span{
+    color: #55c28c;
+    border-bottom: 2px solid #55c28c;
+    padding-bottom: 5px;
+}
+
+.input-box{
+    width: 100%;
+    max-width: 400px;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 6px;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.input-box input{
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+    width: 80%;
+}
+
+.input-box img{
+    width: 32px;
+    position: absolute;
+    right: 8px;
+}
+
+button{
+    background: #24a364;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+
+}
+
+@media (max-width: 768px) {
+    .container {
+      margin-top: 50px;
+    }
+  
+    .input-place {
+      width: 90%;
+    }
+  
+    .btn {
+      width: 90%;
+      padding: 15px;
+      font-size: 18px;
+    }
+  }
+  
+  /* Для экранов шириной меньше 480px (для очень маленьких экранов, например, телефонов в портретной ориентации) */
+  @media (max-width: 480px) {
+    .input-place {
+      width: 95%;
+      padding: 12px;
+    }
+  
+    .btn {
+      width: 95%;
+      padding: 20px;
+      font-size: 20px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  }
